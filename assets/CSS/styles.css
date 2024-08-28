@@ -1,0 +1,279 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: auto;
+    padding: 0;
+    background-image: linear-gradient(rgba(51, 51, 51, 0.5), rgba(51, 51, 51, 0.5)), url("../IMG/Tecnologias/Fondo.jpg");
+    background-size: 100%;
+}
+
+fieldset{
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.607);
+}
+
+legend{
+    color: white;
+    font-size: large;
+    text-shadow: 3px 3px 10px rgb(63, 36, 36);
+}
+
+section{
+    margin: auto;
+    width: 90%;
+}
+
+h3, p{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+p, li{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+
+.Standar{
+    margin: auto;
+    padding: 0;
+}
+
+/*HEADER*/
+.Header{
+    width: 90%;
+    text-align: start;
+    font-size: x-large;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+/*NAVBAR*/
+.Navbar{
+    width: 90%;
+}
+
+.Navbar menu{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.607);
+}
+
+.Navbar a{
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: black;
+    transition: 200ms ease-in;
+}
+
+.Navbar a:hover{
+    color: white;
+    text-shadow: 3px 3px 10px black, -3px -3px 10px red;
+}
+
+/*FORMACION*/
+.Formacion hr{
+    background-color: black;
+    width: 1px;
+}
+
+#ListaFormacion{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#ListaFormacion div:first-child{
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+#ListaFormacion div:first-child img{
+    width: 30%;
+}
+
+#ListaFormacion div{
+    padding-bottom: 20px;
+    text-align: center;
+    border-top: 1px black solid;
+    width: 49%;
+}
+
+.Formacion summary{
+    margin: auto;
+    font-weight: bolder;
+    font-size: large;
+    transition: 200ms;
+    cursor: pointer;
+    width: fit-content ;
+}
+
+.Formacion summary:hover{
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 3px 3px 10px black, -3px -3px 10px red;
+}
+
+.Formacion img{
+    width: 50%;
+    border-radius: 15px;
+}
+
+/*PROYECTOS*/
+.Proyectos a{
+    margin: auto;
+    padding:0;
+    display: flow-root;
+    width: 80%;
+    height: 8em;
+    border-radius: 15px;
+}
+
+.Proyectos img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.Proyectos a img:hover{
+    box-shadow: 5px 5px 10px rgb(129, 39, 39);
+}
+
+#ListaProyectos{
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+
+#ListaProyectos p+p{
+    text-align: left;
+}
+
+.Cards{
+    padding-bottom: 20px;
+    width: 24%;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+/*HABILIDADES TECNICAS*/
+#ListaHabilidades{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.TecnoContac{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    border-radius: 15px;
+    width: 6em;
+}
+
+#ListaHabilidades div{
+    width: 33%;
+    text-align: center;
+}
+
+#ListaHabilidades div:last-child{
+    width: 100%;
+}
+
+/*CONTACTO REDES*/
+#Redes{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+
+#Redes div{
+    width: 33%;
+}
+#Redes a{
+    display: flow-root;
+    width: fit-content;
+    margin: auto;
+}
+
+#Redes img:hover{
+    box-shadow: 5px 5px 10px rgb(129, 39, 39);
+}
+
+.BotonRedondo{
+    border-radius: 55px ;
+}
+
+/*FOOTER*/
+.Footer{
+    padding-top: 40px;
+    width: 100%;
+    height: 2em;
+    border-radius: 15px 15px 0 0;
+    display: block;
+    text-align: center;
+}
+
+#Comentarios{
+    margin: auto;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    background-color: rgba(45, 45, 45, 0.925);
+    color: white;
+}
+
+#Comentarios p{
+    padding: 0;
+}
+
+#Comentarios div:first-child{
+    width: 100%;
+    text-align: center;
+}
+
+#Comentarios div:nth-child(2){
+    width: 49%;
+    text-align: right;
+}
+
+#Comentarios div:nth-child(3){
+    width: 49%;
+    text-align: left;
+}
+
+#Comentarios button{
+    height: 2.5em;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bolder;
+    color: black;
+    background: white;
+}
+
+#Comentarios button:hover{
+    cursor: pointer;
+    transition: 200ms;
+    color: white;
+    background: black;
+    box-shadow: 3px 3px 10px white, -3px -3px 10px red;
+}
