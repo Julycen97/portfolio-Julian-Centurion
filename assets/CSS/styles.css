@@ -5,7 +5,7 @@ html{
 body{
     margin: auto;
     padding: 0;
-    background-image: linear-gradient(rgba(51, 51, 51, 0.5), rgba(51, 51, 51, 0.5)), url("IMG/Tecnologias/Fondo.jpg");
+    background-image: linear-gradient(rgba(51, 51, 51, 0.5), rgba(51, 51, 51, 0.5)), url("../IMG/Tecnologias/Fondo.jpg");
     background-size: 100%;
 }
 
