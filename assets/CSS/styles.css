@@ -149,6 +149,7 @@ p, li{
 }
 
 .Proyectos a img:hover{
+    transition: 300ms;
     box-shadow: 5px 5px 10px rgb(129, 39, 39);
 }
 
@@ -213,6 +214,7 @@ p, li{
 }
 
 #Redes img:hover{
+    transition: 300ms;
     box-shadow: 5px 5px 10px rgb(129, 39, 39);
 }
 
@@ -272,7 +274,7 @@ p, li{
 
 #Comentarios button:hover{
     cursor: pointer;
-    transition: 200ms;
+    transition: 300ms;
     color: white;
     background: black;
     box-shadow: 3px 3px 10px white, -3px -3px 10px red;
